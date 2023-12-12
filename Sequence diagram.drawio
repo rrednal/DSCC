@@ -1,0 +1,159 @@
+<mxfile host="app.diagrams.net" modified="2023-12-11T21:20:48.261Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="XcsmKpbpkQhOoHkdlRqI" version="22.1.7" type="device">
+  <diagram name="Страница — 1" id="Il_Qq5slRIma4_pJpYDA">
+    <mxGraphModel dx="795" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nsrhyMML2xATmEQM5REy-2" value="CLIENT" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="100" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="nsrhyMML2xATmEQM5REy-2">
+          <mxGeometry x="45" y="80" width="10" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-4" value="WEB SERVER" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="100" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="nsrhyMML2xATmEQM5REy-4">
+          <mxGeometry x="45" y="80" width="10" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-6" value="APPLICATION SERVER" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="100" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="nsrhyMML2xATmEQM5REy-6">
+          <mxGeometry x="45" y="90" width="10" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-29" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" edge="1" parent="nsrhyMML2xATmEQM5REy-6">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="55" y="260" as="sourcePoint" />
+            <mxPoint x="55" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="260" />
+              <mxPoint x="90" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-8" value="DATABASE" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="640" y="40" width="100" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="nsrhyMML2xATmEQM5REy-8">
+          <mxGeometry x="45" y="100" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="nsrhyMML2xATmEQM5REy-8">
+          <mxGeometry x="45" y="190" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-19" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="nsrhyMML2xATmEQM5REy-8">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-145" y="190.02857142857135" as="sourcePoint" />
+            <mxPoint x="45" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-90" y="190" />
+              <mxPoint x="-90" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-21" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="nsrhyMML2xATmEQM5REy-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="240" as="sourcePoint" />
+            <mxPoint x="-145" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-27" value="PosgreSQL request &lt;br&gt;(INSERT natural number)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nsrhyMML2xATmEQM5REy-8">
+          <mxGeometry x="-150" y="160" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-11" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="95" y="120" as="sourcePoint" />
+            <mxPoint x="285" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-13" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="295" y="120" as="sourcePoint" />
+            <mxPoint x="485" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="295" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-14" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" parent="1" source="nsrhyMML2xATmEQM5REy-7" target="nsrhyMML2xATmEQM5REy-9">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="550" y="160" as="sourcePoint" />
+            <mxPoint x="670" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="495" y="145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-15" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="359.1699999999999" as="sourcePoint" />
+            <mxPoint x="95" y="359.1699999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-16" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="349.9999999999999" as="sourcePoint" />
+            <mxPoint x="295" y="349.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-17" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="nsrhyMML2xATmEQM5REy-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="190" as="sourcePoint" />
+            <mxPoint x="500" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-22" value="HTTP POST request &lt;br&gt;(natural number)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-24" value="HTTP POST request &lt;br&gt;(natural number)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="100" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-25" value="PosgreSQL request &lt;br&gt;(SELECT natural number / &lt;br&gt;natural number + 1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="100" width="200" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-26" value="PosgreSQL response" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="160" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-31" value="natural number + 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="300" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-32" value="JSON (natural number + 1 / &lt;br&gt;Error 1 / Error 2)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="320" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-33" value="JSON (natural number + 1 / &lt;br&gt;Error 1 / Error 2)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="330" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-34" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="309.9999999999999" as="sourcePoint" />
+            <mxPoint x="95" y="309.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-35" value="Incorrect data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="280" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-36" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="259.9999999999999" as="sourcePoint" />
+            <mxPoint x="95" y="259.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-38" value="Request send error" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="230" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-28" value="PosgreSQL response" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="250" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-41" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="299.1699999999999" as="sourcePoint" />
+            <mxPoint x="295" y="299.1699999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsrhyMML2xATmEQM5REy-42" value="log (Error 1 / Error 2)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="269.17" width="200" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
